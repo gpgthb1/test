@@ -1,6 +1,10 @@
 Todo:
-1. Create utility method to check all the required files present or not. Then populate the data if required
-4. List out all the exceptions and handle them
+1. Check the file path and through error
+2. Use single method to create all files
+3. Add comments if required
+4. Create utility method to check all the required files present or not. Then populate the data if required
+5. List out all the exceptions and handle them
+6. 
 
 
 
