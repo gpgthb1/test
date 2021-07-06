@@ -1,10 +1,29 @@
 Todo:
-1. Check the file path and through error
-2. Use single method to create all files
-3. Add comments if required
-4. Create utility method to check all the required files present or not. Then populate the data if required
-5. List out all the exceptions and handle them
-6. 
+1. Get the sample report from Srikanth
+Get the SMTP information from Ramya
+Check consumer map is null or not based on the show the message as report generation is success or not
+Check the files exist or not.if the files not exist then only create them
+Convert strings to JSON object
+Add regression flag and do the required changes
+Kill the application after completion of the report
+Implement logger and exception handling for kafka related projects
+No code walkthrough about the application
+Read the Jsons from property files
+Convert JSON string to JSON object
+Send report as email
+Integrate with kudu
+
+IMPROVEMENTS
+
+Better to stick the status call to 30 min
+Coding standards documents
+
+2. Check the file path and through error
+3. Use single method to create all files
+4. Add comments if required
+5. Create utility method to check all the required files present or not. Then populate the data if required
+6. List out all the exceptions and handle them
+7. 
 
 
 
