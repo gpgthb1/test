@@ -1,3 +1,21 @@
+ public JSONObject printJSONObject() {
+    JSONObject jsonObject = new JSONObject();
+    try {
+      Field changeMap = jsonObject.getClass().getDeclaredField("map");
+      changeMap.setAccessible(true);
+      changeMap.set(jsonObject, new LinkedHashMap<>());
+      changeMap.setAccessible(false);
+    } catch (IllegalAccessException | NoSuchFieldException e) {
+      log.info(e.getMessage());
+    }
+    jsonObject.put("one", "hi");
+    jsonObject.put("two", "there");
+    jsonObject.put("three", "whats");
+    jsonObject.put("four", "up");
+    return jsonObject;
+  }
+
+
 Todo:
 1. Get the sample report from Srikanth
 Get the SMTP information from Ramya
